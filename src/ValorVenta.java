@@ -42,6 +42,7 @@ public class ValorVenta extends javax.swing.JFrame  implements ActionListener{
         jPanel1 = new javax.swing.JPanel();
         btnanterior = new javax.swing.JButton();
         btnsiguiente = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -54,6 +55,9 @@ public class ValorVenta extends javax.swing.JFrame  implements ActionListener{
 
         btnsiguiente.setText("Siguiente");
         jPanel1.add(btnsiguiente);
+
+        jButton1.setText("Limpiar");
+        jPanel1.add(jButton1);
 
         Contendor.add(jPanel1, java.awt.BorderLayout.PAGE_END);
 
@@ -101,6 +105,7 @@ public class ValorVenta extends javax.swing.JFrame  implements ActionListener{
     private javax.swing.JPanel Contendor;
     private javax.swing.JButton btnanterior;
     private javax.swing.JButton btnsiguiente;
+    private javax.swing.JButton jButton1;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 
