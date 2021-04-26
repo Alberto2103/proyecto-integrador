@@ -13,7 +13,7 @@ import java.awt.event.ActionListener;
  * @author ALBERTO
  */
 public class ValorVenta extends javax.swing.JFrame  implements ActionListener{
-
+//agregando comentartioss
    MenuPrincipal menuprincipal=new MenuPrincipal();
   PrecioVenta precioventa=new PrecioVenta();
    sssss ssssss=new sssss();
